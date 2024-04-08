@@ -1,0 +1,19 @@
+/* Custom styles for the custom dialog */
+.custom-dialog-root {
+  & .MuiDialog-paper {
+    width: 500px;
+    height: 160px;
+    max-width: 600px;
+    max-height: calc(100% - 64px);
+  }
+
+  /* Custom styles for the DialogTitle */
+  & .MuiDialogTitle-root {
+    padding: 16px 24px;
+  }
+
+  /* Custom styles for the DialogContent */
+  & .MuiDialogContent-root {
+    padding: 8px 24px;
+  }
+}

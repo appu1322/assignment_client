@@ -1,0 +1,20 @@
+.no-data {
+    flex-direction: column;
+    // height: calc(100% - 60px);
+}
+
+.noData-title {
+    font-size: 16px;
+    font-weight: 600!important;
+    color: #74788d;
+}
+
+.noData-sub-title {
+    font-size: 18px;
+    color: #74788d;
+}
+
+.error-icon {
+    color: #74788d;
+    width: 100px;
+}
